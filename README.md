@@ -23,7 +23,7 @@ Xây dựng một máy trò chuyện end-to-end sử dụng giải thuật [Tran
 - Chúng tôi tiền xử lý bộ dữ liệu của mình theo thứ tự sau:
 	- Trích xuất `max_samples` cặp cuộc trò chuyện thành danh sách các `questions` và `answers`.
 	- Tiền xử lý từng câu bằng cách loại bỏ các ký tự đặc biệt trong mỗi câu.
-	- Xây dựng tokenizer (ánh xạ văn bản thành ID và ID thành văn bản) bằng cách sử dụng [TensorFlow Datasets SubwordTextEncoder](https://www.tensorflow.org/datasets/api_docs/python/tfds/features/text/SubwordTextEncoder).
+	- Xây dựng tokenizer (ánh xạ văn bản thành ID và ID thành văn bản) 
 	- Mã hóa các câu thành mã thông báo và thêm `start_token` và `end_token` để chỉ định bắt đầu và kết thúc của mỗi câu.
 	- Lọc ra các câu có nhiều hơn `max_length` mã thông báo.
 	- Thêm mã thông báo cho các câu đã được mã hóa để có độ dài chính xác là `max_length`.
