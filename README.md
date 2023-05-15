@@ -1,4 +1,4 @@
-## bot trò chuyện Transformer với TensorFlow 2
+## Chatbot Transformer với TensorFlow 2
 Xây dựng một máy trò chuyện end-to-end sử dụng giải thuật [Transformer](https://arxiv.org/abs/1706.03762) trên TensorFlow 2. Hãy xem hướng dẫn của tôi trên [blog.tensorflow.org](https://blog.tensorflow.org/2019/05/transformer-chatbot-tutorial-with-tensorflow-2.html).
 
 
